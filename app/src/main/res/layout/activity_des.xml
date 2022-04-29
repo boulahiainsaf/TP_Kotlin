@@ -9,7 +9,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DesActivity">
+    tools:context=".activivtes.DesActivity">
 
     <TextView
         android:id="@+id/boutton1"

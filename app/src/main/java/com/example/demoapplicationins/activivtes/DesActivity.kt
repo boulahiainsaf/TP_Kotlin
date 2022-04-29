@@ -1,11 +1,9 @@
-package com.example.demoapplicationins
+package com.example.demoapplicationins.activivtes
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.view.View
-import android.widget.Button
 import android.widget.TextView
+import com.example.demoapplicationins.R
 import kotlin.random.Random
 
 class DesActivity : AppCompatActivity() {
@@ -15,6 +13,12 @@ class DesActivity : AppCompatActivity() {
     private var b1:Int = 0
     private var b2:Int = 0
     private var b3:Int = 0
+    companion object{
+        private const val  B1="b1"
+        private const val  B2="b2"
+        private const val  B3="b3"
+
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,9 +34,9 @@ class DesActivity : AppCompatActivity() {
         if (savedInstanceState != null)
         {
             // récupérations :
-            b1 = savedInstanceState.getInt("b1")
-            b2 = savedInstanceState.getInt("b2")
-            b3 = savedInstanceState.getInt("b3")
+            b1 = savedInstanceState.getInt(B1)
+            b2 = savedInstanceState.getInt(B2)
+            b3 = savedInstanceState.getInt(B3)
         }
         boutton1.text=b1.toString()
         boutton2.text=b2.toString()
@@ -40,9 +44,9 @@ class DesActivity : AppCompatActivity() {
     }
     override fun onSaveInstanceState(outState: Bundle) {
 
-        outState.putInt("b1", b1)
-        outState.putInt("b2", b2)
-        outState.putInt("b3", b3)
+        outState.putInt(B1, b1)
+        outState.putInt(B2, b2)
+        outState.putInt(B3, b3)
 
         super.onSaveInstanceState(outState)
 

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activivtes.ListeActivity">
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bouton_valider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:background="@android:color/holo_blue_bright"
+        android:onClick="clicValider"
+        app:layout_constraintRight_toRightOf="@id/liste_course"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <EditText
+        android:id="@+id/course"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text=""
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/bouton_valider"
+        app:layout_constraintRight_toLeftOf="@id/bouton_valider"/>
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/liste_course"
+    android:layout_width="250dp"
+    android:layout_height="0dp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/bouton_valider"
+    app:layout_constraintBottom_toBottomOf="parent"/>
+   <FrameLayout
+       android:id="@+id/conteneur_detail"
+       android:layout_width="0dp"
+       android:layout_height="0dp"
+       android:background="@android:color/holo_blue_dark"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintRight_toRightOf="parent"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintLeft_toRightOf="@id/liste_course"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

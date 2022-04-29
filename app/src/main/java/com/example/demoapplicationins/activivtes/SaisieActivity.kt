@@ -1,13 +1,12 @@
-package com.example.demoapplicationins
+package com.example.demoapplicationins.activivtes
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.Editable
 import android.util.Log
 import android.widget.Button
 import android.widget.EditText
-import android.widget.TextView
+import com.example.demoapplicationins.R
 
 class SaisieActivity : AppCompatActivity() {
 
@@ -16,6 +15,7 @@ class SaisieActivity : AppCompatActivity() {
         setContentView(R.layout.activity_saisie)
         val sai: EditText= findViewById(R.id.text)
         val button:Button = findViewById(R.id.valider)
+
         button.setOnClickListener {
 
             val saisie:String = sai.text.toString()

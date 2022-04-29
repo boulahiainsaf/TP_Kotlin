@@ -10,10 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DemoApplicationins">
         <activity
-            android:name=".DesActivity"
+            android:name=".activivtes.PermissiomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activivtes.DetailCourseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activivtes.ListeActivity"
             android:exported="true" />
         <activity
-            android:name=".LiseuseActivity"
+            android:name=".activivtes.SaisieActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+        <activity
+            android:name=".activivtes.PrincipaleActivity"
+            android:exported="true"
+            android:label="TP 4" />
+        <activity
+            android:name=".activivtes.DesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activivtes.LiseuseActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,13 +39,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".DetailArticleActivity"
-            android:exported="true"></activity>
+            android:name=".activivtes.DetailArticleActivity"
+            android:exported="true" />
         <activity
-            android:name=".QuestionActivity"
-            android:exported="true"></activity>
+            android:name=".activivtes.QuestionActivity"
+            android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activivtes.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

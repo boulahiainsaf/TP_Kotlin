@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_favori"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Favori"
+        app:showAsAction="ifRoom"/>
+    <!-- Apparaît uniquement dans le menu contextuel -->
+    <item
+        android:id="@+id/action_reglages"
+        android:title="Réglages"
+        app:showAsAction="never"/>
+</menu>

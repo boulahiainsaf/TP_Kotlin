@@ -3,11 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/insaf/AndroidStudioProjects/DemoApplicationins/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.168" />
+        <entry key="..\:/Users/insaf/AndroidStudioProjects/DemoApplicationins/app/src/main/res/drawable/ic_launcher_background.xml" value="0.168" />
+        <entry key="..\:/Users/insaf/AndroidStudioProjects/DemoApplicationins/app/src/main/res/drawable/star_big.xml" value="0.168" />
+        <entry key="..\:/Users/insaf/AndroidStudioProjects/DemoApplicationins/app/src/main/res/layout-w500dp-land/activity_liste.xml" value="0.28125" />
         <entry key="..\:/Users/insaf/AndroidStudioProjects/DemoApplicationins/app/src/main/res/layout/activity_des.xml" value="0.22" />
         <entry key="..\:/Users/insaf/AndroidStudioProjects/DemoApplicationins/app/src/main/res/layout/activity_detail_article.xml" value="0.25" />
+        <entry key="..\:/Users/insaf/AndroidStudioProjects/DemoApplicationins/app/src/main/res/layout/activity_detail_course.xml" value="0.18072916666666666" />
         <entry key="..\:/Users/insaf/AndroidStudioProjects/DemoApplicationins/app/src/main/res/layout/activity_liseuse.xml" value="0.25" />
+        <entry key="..\:/Users/insaf/AndroidStudioProjects/DemoApplicationins/app/src/main/res/layout/activity_liste.xml" value="0.3625" />
         <entry key="..\:/Users/insaf/AndroidStudioProjects/DemoApplicationins/app/src/main/res/layout/activity_main.xml" value="0.16736753574432295" />
+        <entry key="..\:/Users/insaf/AndroidStudioProjects/DemoApplicationins/app/src/main/res/layout/activity_permissiom.xml" value="0.14010416666666667" />
+        <entry key="..\:/Users/insaf/AndroidStudioProjects/DemoApplicationins/app/src/main/res/layout/activity_principale.xml" value="0.2" />
         <entry key="..\:/Users/insaf/AndroidStudioProjects/DemoApplicationins/app/src/main/res/layout/activity_question.xml" value="0.5" />
+        <entry key="..\:/Users/insaf/AndroidStudioProjects/DemoApplicationins/app/src/main/res/layout/activity_saisie.xml" value="0.2" />
+        <entry key="..\:/Users/insaf/AndroidStudioProjects/DemoApplicationins/app/src/main/res/layout/fragment_detail.xml" value="0.13541666666666666" />
+        <entry key="..\:/Users/insaf/AndroidStudioProjects/DemoApplicationins/app/src/main/res/layout/item_course.xml" value="0.3625" />
+        <entry key="..\:/Users/insaf/AndroidStudioProjects/DemoApplicationins/app/src/main/res/menu/menu_applic.xml" value="0.25" />
       </map>
     </option>
   </component>

@@ -7,7 +7,7 @@
     android:gravity="center"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".SaisieActivity">
+    tools:context=".activivtes.SaisieActivity">
     <EditText
         android:id="@+id/text"
         android:layout_width="match_parent"
